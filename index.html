@@ -4,51 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Schedule</title>
+    <title>Schema</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <heading>
-    <h1 tabindex="1">Sport Schedule - Larissa Klaasen</h1>
-  </heading>
   <body>
-    <main>
-      <ul>
-        <li><a href="#">to Spring 2022</a></li>
-        <li><a href="#">to Summer 2022</a></li>
-        <li><a href="#">to Autumn 2022</a></li>
-        <li><a href="#">to Winter 2022</a></li>
-      </ul>
-    </main>
+    <div id="container">
+      <div id="header">
+        <div id="monthDisplay"></div>
+        <div>
+          <button id="backbutton">Back</button>
+          <button id="nextbutton">Next</button>
+        </div>
+      </div>
+      <div id="weekdays">
+        <div>Maandag</div>
+        <div>Dinsdag</div>
+        <div>Woensdag</div>
+        <div>Donderdag</div>
+        <div>Vrijdag</div>
+        <div>Zaterdag</div>
+        <div>Zondag</div>
+      </div>
+      <div id="calendar"></div>
+    </div>
+
+    <div id="newEventModal">
+      <h2>New Event</h2>
+      <input id="eventTitleInput" placeholder="Event Title" />
+
+      <button id="saveButton">Save</button>
+      <button id="cancelButton">Cancel</button>
+    </div>
+
+    <div id="modalBackDrop"></div>
+
+    <script src="./script.js"></script>
   </body>
 </html>
-
-<!-- 
-
-  - contrast en visueel vind ze fijn
-  - weekelijks in detail
-  - krachttraining en baantraining zijn belangrijk
-  - geen gedeelde, liever prive schema
-  - winnen sws (geen andere dames in nederland)
-  - geen voedings schema
-  - oranje is lievelingskleur (blauw)
-  - ze heeft MAC
-  - Liever Nederlands en TAB ipv Pijltjes
-
-  Hoe ziet een ideale schema eruit?
-  - ma do kracht
-  - di start training
-  - de rest afstemmen
-  - kracht training op gevoel
-  - waarom doen we dingen? (krachttraining)
-  - houd alles bij in dr hoofd 
-  - meer ordening
-  - logische duidelijkheid
-  - warming up - kern deel - cooling down
-  - snel info nodig
-  - baan seizoen okt - wk (wisseld wanneer)
-  - weg seizoen 
-  - schema per wedstrijden (NK, WK, etc.)
-
-
-  - Claire (vrouwelijke dames stem)
- -->
