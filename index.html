@@ -1,39 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Schema</title>
+    <title>Sport Schema - Larissa Klaassen</title>
+
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body lang="nl">
+    <button class="sneltoets" tabindex="1">Ga naar vandaag</button>
     <div id="container">
       <div id="header">
-        <div id="monthDisplay"></div>
+        <div id="monthDisplay" tabindex="0"></div>
         <div>
-          <button id="backbutton">Back</button>
-          <button id="nextbutton">Next</button>
+          <button id="backButton" tabindex="2">Vorige maand</button>
+          <button id="nextButton" tabindex="2">Volgende maand</button>
         </div>
       </div>
+
       <div id="weekdays">
+        <div>Zondag</div>
         <div>Maandag</div>
         <div>Dinsdag</div>
         <div>Woensdag</div>
         <div>Donderdag</div>
         <div>Vrijdag</div>
         <div>Zaterdag</div>
-        <div>Zondag</div>
       </div>
+
       <div id="calendar"></div>
     </div>
 
-    <div id="newEventModal">
-      <h2>New Event</h2>
-      <input id="eventTitleInput" placeholder="Event Title" />
+    <div id="newEventModal" tabindex="0">
+      <h2>Nieuwe activiteit</h2>
 
-      <button id="saveButton">Save</button>
-      <button id="cancelButton">Cancel</button>
+      <input id="eventTitleInput" placeholder="Titel activiteit" tabindex="0" />
+
+      <button id="saveButton" tabindex="0">Opslaan</button>
+      <button id="cancelButton" tabindex="0">Annuleren</button>
+    </div>
+
+    <div id="deleteEventModal" tabindex="0">
+      <h2>Activiteit</h2>
+
+      <p id="eventText"></p>
+
+      <button id="deleteButton" tabindex="0">Verwijder</button>
+      <button id="closeButton" tabindex="0">Sluiten</button>
     </div>
 
     <div id="modalBackDrop"></div>

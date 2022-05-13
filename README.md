@@ -32,3 +32,14 @@
  <!-- <heading>
     <h1 tabindex="1">Sport Schema - Larissa Klaasen</h1>
   </heading> -->
+
+<!--
+Notitie interview 3
+
+
+volgende en vroige maand x
+meer ruimte tussen de blokjes x
+dat die ook de dag zegt bij datum!
+knop voor ga naar vandaag misschien ergens anders? voor nu goed x
+
+ -->

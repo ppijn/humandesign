@@ -2,7 +2,7 @@ body {
   display: flex;
   margin-top: 50px;
   justify-content: center;
-  background-color: #fffcff;
+  background-color: #000;
 }
 button {
   width: 75px;
@@ -17,25 +17,35 @@ button {
 
 #header {
   padding: 10px;
-  color: #d36c6c;
-  font-size: 26px;
+  color: red;
+  font-size: 36px;
   font-family: sans-serif;
+  text-transform: uppercase;
   display: flex;
   justify-content: space-between;
 }
 #header button {
-  background-color: #92a1d1;
+  background-color: #fff;
+  width: 120px;
+  color: #000;
+}
+
+#header button:focus {
+  border: 2px solid black;
+  background-color: orange;
 }
 #container {
-  width: 770px;
+  width: 900px;
 }
 #weekdays {
   width: 100%;
   display: flex;
-  color: #247ba0;
+  color: white;
+  border-radius: 10px;
+  background-color: #247ba0;
 }
 #weekdays div {
-  width: 100px;
+  width: 111px;
   padding: 10px;
 }
 #calendar {
@@ -44,6 +54,11 @@ button {
   display: flex;
   flex-wrap: wrap;
 }
+
+.day:nth-of-type(1n) {
+  content: "Zondag";
+  color: black;
+}
 .day {
   width: 100px;
   padding: 10px;
@@ -51,23 +66,28 @@ button {
   cursor: pointer;
   box-sizing: border-box;
   background-color: white;
-  margin: 5px;
-  box-shadow: 0px 0px 3px #cbd4c2;
+  margin: 14px;
+  box-shadow: 0px 0px 3px orange;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+.day:focus,
 .day:hover {
-  background-color: #e8faed;
+  background-color: #ffa500;
+}
+
+.day:focus {
+  border: 2px solid black;
 }
 
 .day + #currentDay {
-  background-color: #e8f4fa;
+  background-color: #fac768;
 }
 .event {
   font-size: 10px;
   padding: 3px;
-  background-color: #58bae4;
+  background-color: blue;
   color: white;
   border-radius: 5px;
   max-height: 55px;
@@ -75,7 +95,7 @@ button {
 }
 .padding {
   cursor: default !important;
-  background-color: #fffcff !important;
+  background-color: #000 !important;
   box-shadow: none !important;
 }
 #newEventModal,
@@ -102,6 +122,10 @@ button {
   border: none;
   box-shadow: 0px 0px 3px gray;
 }
+
+#eventTitleInput:focus {
+  border: 2px solid black;
+}
 #eventTitleInput.error {
   border: 2px solid red;
 }
@@ -109,6 +133,14 @@ button {
 #deleteButton {
   background-color: #d36c6c;
 }
+
+#cancelButton:focus,
+#deleteButton:focus,
+#saveButton:focus,
+#closeButton:focus {
+  border: 2px solid black;
+}
+
 #saveButton,
 #closeButton {
   background-color: #92a1d1;
@@ -125,4 +157,17 @@ button {
   height: 100vh;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+.sneltoets {
+  position: absolute;
+  width: 300px;
+  top: -100000px;
+  color: black;
+  background-color: white;
+}
+
+.sneltoets:focus {
+  top: 0;
+  border: 5px solid black;
 }

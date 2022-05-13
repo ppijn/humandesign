@@ -4,15 +4,21 @@ let events = localStorage.getItem("events")
   ? JSON.parse(localStorage.getItem("events"))
   : [];
 
+const naarVandaagKnop = document.querySelector(".sneltoets");
+const vandaag = document.getElementById("currentDay");
 const calendar = document.getElementById("calendar");
+const newEventModal = document.getElementById("newEventModal");
+const deleteEventModal = document.getElementById("deleteEventModal");
+const backDrop = document.getElementById("modalBackDrop");
+const eventTitleInput = document.getElementById("eventTitleInput");
 const weekdays = [
-  "Maandag",
-  "Dinsdag",
-  "Woensdag",
-  "Donderdag",
-  "Vrijdag",
-  "Zaterdag",
-  "Zondag",
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
 ];
 
 function openModal(date) {
@@ -21,9 +27,13 @@ function openModal(date) {
   const eventForDay = events.find((e) => e.date === clicked);
 
   if (eventForDay) {
-    console.log("Event already exists");
+    document.getElementById("eventText").innerText = eventForDay.title;
+    deleteEventModal.style.display = "block";
   } else {
+    newEventModal.style.display = "block";
   }
+
+  backDrop.style.display = "block";
 }
 
 function load() {
@@ -40,19 +50,16 @@ function load() {
   const firstDayOfMonth = new Date(year, month, 1);
   const daysInMonth = new Date(year, month + 1, 0).getDate();
 
-  const dateString = firstDayOfMonth.toLocaleDateString("nl", {
+  const dateString = firstDayOfMonth.toLocaleDateString("en-uk", {
     weekday: "long",
-    day: "numeric",
-    month: "numeric",
     year: "numeric",
+    month: "numeric",
+    day: "numeric",
   });
-
-  console.log(dateString);
   const paddingDays = weekdays.indexOf(dateString.split(", ")[0]);
-  console.log(paddingDays);
 
   document.getElementById("monthDisplay").innerText = `${dt.toLocaleDateString(
-    "nl-nl",
+    "nl",
     { month: "long" }
   )} ${year}`;
 
@@ -60,30 +67,103 @@ function load() {
 
   for (let i = 1; i <= paddingDays + daysInMonth; i++) {
     const daySquare = document.createElement("div");
+
     daySquare.classList.add("day");
+    console.log(daySquare);
+    daySquare.tabIndex = 0;
+
+    const dayString = `${month + 1}/${i - paddingDays}/${year}`;
 
     if (i > paddingDays) {
       daySquare.innerText = i - paddingDays;
+      const eventForDay = events.find((e) => e.date === dayString);
 
-      daySquare.addEventListener("click", () => console.log("click"));
+      if (i - paddingDays === day && nav === 0) {
+        daySquare.id = "currentDay";
+      }
+
+      if (eventForDay) {
+        const eventDiv = document.createElement("div");
+        eventDiv.classList.add("event");
+        eventDiv.innerText = eventForDay.title;
+        daySquare.appendChild(eventDiv);
+      }
+
+      // daySquare.addEventListener("click", () => openModal(dayString));
+
+      daySquare.onkeyup = function (e) {
+        if (e.key == "Enter") {
+          openModal(dayString);
+          newEventModal.focus();
+          deleteEventModal.focus();
+        }
+      };
     } else {
       daySquare.classList.add("padding");
+      daySquare.tabIndex = -1;
     }
+
     calendar.appendChild(daySquare);
   }
 }
 
+function closeModal() {
+  eventTitleInput.classList.remove("error");
+  newEventModal.style.display = "none";
+  deleteEventModal.style.display = "none";
+  backDrop.style.display = "none";
+  eventTitleInput.value = "";
+  // daySquare.focus()
+  clicked = null;
+  load();
+}
+
+function saveEvent() {
+  if (eventTitleInput.value) {
+    eventTitleInput.classList.remove("error");
+
+    events.push({
+      date: clicked,
+      title: eventTitleInput.value,
+    });
+
+    localStorage.setItem("events", JSON.stringify(events));
+    closeModal();
+  } else {
+    eventTitleInput.classList.add("error");
+  }
+}
+
+function deleteEvent() {
+  events = events.filter((e) => e.date !== clicked);
+  localStorage.setItem("events", JSON.stringify(events));
+  closeModal();
+}
+
 function initButtons() {
-  document.getElementById("nextbutton").addEventListener("click", () => {
+  document.getElementById("nextButton").addEventListener("click", () => {
     nav++;
     load();
   });
 
-  document.getElementById("backbutton").addEventListener("click", () => {
+  document.getElementById("backButton").addEventListener("click", () => {
     nav--;
     load();
   });
+
+  document.getElementById("saveButton").addEventListener("click", saveEvent);
+  document.getElementById("cancelButton").addEventListener("click", closeModal);
+  document
+    .getElementById("deleteButton")
+    .addEventListener("click", deleteEvent);
+  document.getElementById("closeButton").addEventListener("click", closeModal);
 }
+
+naarVandaagKnop.onkeyup = function (e) {
+  if (e.key == "Enter") {
+    location.reload();
+  }
+};
 
 initButtons();
 load();
