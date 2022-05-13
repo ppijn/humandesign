@@ -1,14 +1,10 @@
 # HCD README
 ## Table of content:
 - [Introduction](#introduction)
-- [x] Problem
-- [x] Prototyping, testing and results
-- [x] Adjustments made from the interviews
-- [ ] Design Principles
-- Study Situation
-- Prioritise Identity
-- Ignore Conventions
-- Add Nonsense
+- [Problem](#problem) 
+- [Prototyping, testing and results](#prototyping-testing-and-results)
+- [Adjustments made from the interviews](#adjustments-made-from-interview)
+- [Design Principles](#design-principles)
 
 ## Introduction
 For this course we were given the task to create something for one specific user. This had to be based on prototyping and testing using these interviews. We were given a random case ( a person with a specific kind of disability) and we had to create this website for that person.
