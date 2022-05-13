@@ -1,4 +1,5 @@
 # HCD README
+![sport schedule larissa klaassen](https://github.com/ppijn/humandesign/blob/main/schedule.png)
 ## Table of content:
 - [Introduction](#introduction)
 - [Problem](#problem) 
