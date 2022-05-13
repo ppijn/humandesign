@@ -80,9 +80,16 @@ https://ppijn.github.io/humandesign/index.html
 
 ## Design Principles
 ### Study Situation
+To understand how Larissa works we need to study her and her situation, since she has a very special way of going about doing things. It is very important to understand her situation when applying it to her own personal needs. During our interviews we asked her a lot of questions regarding her ways of using the web, but also just the way she does things in general. Having a disability can prove to be a struggle and we need to learn from her in order to implement and make it accesible for more people.
 
 ### Prioritise Identity
+From the interviews it is very clear that she has a very strong personality, she can be quite stubborn and stick to her ways. She is a very chaotic person mentioning to us the way she lives and doesnt like being controlled by a schedule and a coach. These things were kept in mind when designing this schedule for her, she doesnt like having a shared schedule and this proves in her proffesional live as well. She never follows her training schedules and wants to do what she wants.I therefore made it so that she can very easily add activities to her schedule and delete them as well. Keeping it personal for her. 
 
 ### Ignore Conventions
+- The usual text size has been decreased and increased at some points.
+- the visual styling has been adjusted to her directly and doesnt look pleasing for people who can see. Using black as a background and white on the blocks we create a lot of contrast so that even she can see even a little bit.
+- we didnt use a nav and these types of html tags so that the screenreader reads things out in her prefered way.
+- Placing a tabindex on almost everything in a certain order so that I have control over how the tab moves. 
 
 ### Add Nonsense
+I didnt use any nonsense because Larissa has mentioned herself during one of the interviews that she didnt want nonsense in there. It would be to unneccesary when she just wants to quickly see certain things and not be filled with nonsense. 
