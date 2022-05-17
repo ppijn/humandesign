@@ -1,6 +1,6 @@
 # HCD README
 
-![sport schedule larissa klaassen](https://github.com/ppijn/humandesign/blob/main/schedule.png)
+![sport schedule larissa klaassen](https://github.com/ppijn/humandesign/blob/main/img/schedule.png)
 
 ## Table of content:
 
@@ -25,6 +25,8 @@ I was given a client called Larissa Klaassen. Larissa is blind/ very badly sight
 ### Prototyping ✏
 
 The first prototype was very simple, we had a short amount of time and the goal of the first phase was to really get to know Larissa and learn her needs. I created a simple tab function with divs to see what she could see and whether or not she liked the tab functions. Having a black background and white blocks to make them pop.
+
+![First test of the sport schedule](https://github.com/ppijn/humandesign/blob/main/img/first-test.jpg)
 
 ### Testing ☁
 
