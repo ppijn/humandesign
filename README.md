@@ -10,7 +10,7 @@
 - [Adjustments made from the interviews](#adjustments-made-from-interview)
 - [Design Principles](#design-principles)
 
-## Introduction ℹℹ
+## Introduction ℹ
 
 For this course we were given the task to create something for one specific user. This had to be based on prototyping and testing using these interviews. We were given a random case ( a person with a specific kind of disability) and we had to create this website for that person.
 
@@ -18,7 +18,7 @@ For this course we were given the task to create something for one specific user
 
 I was given a client called Larissa Klaassen. Larissa is blind/ very badly sighted and can only see about 95% meaning she can tell the difference between light and dark. Larissa is a professional Track cyclist and has won gold at the Paralympics in Tokyo 2020. We had to create a sport schedule for her based on her needs. I am going to focus on creating a easily accessible and usable schedule.
 
-## Prototyping , Testing and Results pot
+## Prototyping , Testing and Results
 
 ## Phase 1️⃣
 
@@ -59,6 +59,8 @@ Hoe ziet een ideale schema eruit?
 - weg seizoen
 - schema per wedstrijden (NK, WK, etc.)
 
+### Take Away
+
 ## Phase 2️⃣
 
 ### Prototype ✏
@@ -75,6 +77,8 @@ Testing went very good, Larissa liked it and of course she wanted the tab functi
 - Geen nonsense, vind het onnodig en niet fijn
 - Claire (vrouwelijke dames stem)
 - snel info nodig
+
+### Take Away
 
 ## Phase 3️⃣
 
@@ -93,6 +97,8 @@ She liked it and only wanted some things to be adjusted like more space in betwe
 - dat die ook de dag zegt bij datum!
 - knop voor ga naar vandaag misschien ergens anders? voor nu goed
 
+### Take Away
+
 ## Adjustments made from interview
 
 After all the interviews it was time to finalise the product, i didn’t have to change much so i did a few adjustments to the styling and added a few more functions like a ‘back to today’ button.
@@ -101,7 +107,7 @@ https://ppijn.github.io/humandesign/index.html
 
 ## Design Principles
 
-### Study Situation 👨‍🎓
+### Study Situation 💻
 
 To understand how Larissa works we need to study her and her situation, since she has a very special way of going about doing things. It is very important to understand her situation when applying it to her own personal needs. During our interviews we asked her a lot of questions regarding her ways of using the web, but also just the way she does things in general. Having a disability can prove to be a struggle and we need to learn from her in order to implement and make it accesible for more people.
 
@@ -109,7 +115,7 @@ To understand how Larissa works we need to study her and her situation, since sh
 
 From the interviews it is very clear that she has a very strong personality, she can be quite stubborn and stick to her ways. She is a very chaotic person mentioning to us the way she lives and doesnt like being controlled by a schedule and a coach. These things were kept in mind when designing this schedule for her, she doesnt like having a shared schedule and this proves in her proffesional live as well. She never follows her training schedules and wants to do what she wants.I therefore made it so that she can very easily add activities to her schedule and delete them as well. Keeping it personal for her.
 
-### Ignore Conventions 🤷‍♂️
+### Ignore Conventions 🚫
 
 - The usual text size has been decreased and increased at some points.
 - the visual styling has been adjusted to her directly and doesnt look pleasing for people who can see. Using black as a background and white on the blocks we create a lot of contrast so that even she can see even a little bit.
@@ -119,3 +125,5 @@ From the interviews it is very clear that she has a very strong personality, she
 ### Add Nonsense 🎨
 
 I didnt use any nonsense because Larissa has mentioned herself during one of the interviews that she didnt want nonsense in there. It would be to unneccesary when she just wants to quickly see certain things and not be filled with nonsense.
+
+## Reflection
