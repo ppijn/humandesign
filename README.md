@@ -9,6 +9,7 @@
 - [Prototyping, testing and results](#prototyping-testing-and-results)
 - [Adjustments made from the interviews](#adjustments-made-from-interview)
 - [Design Principles](#design-principles)
+- [Reflection](#reflection)
 
 ## Introduction ℹ
 
@@ -16,7 +17,7 @@ For this course we were given the task to create something for one specific user
 
 ## Problem ⁉
 
-I was given a client called Larissa Klaassen. Larissa is blind/ very badly sighted and during investigation on her I found out she can only see about 95% meaning she can tell the difference between light and dark. Larissa is a professional Track cyclist and has won gold at the Paralympics in Tokyo 2020. We had to create a sport schedule for her based on her needs. I am going to focus on creating a easily accessible and usable schedule.
+I was given a client called Larissa Klaassen. Larissa is blind/ very badly sighted and during investigation on her I found out she can only see about 95% meaning she can tell the difference between light and dark. Larissa is a professional Track cyclist and has won gold🥇 at the Paralympics in Tokyo 2020. We had to create a sport schedule for her based on her needs. I am going to focus on creating a easily accessible and usable schedule.
 
 ## Prototyping , Testing and Results
 
@@ -137,6 +138,6 @@ We did this all so that Larissa has the best experience with using this website 
 
 I didnt use any nonsense because Larissa has mentioned herself during one of the interviews that she didnt want nonsense in there. It would be to unneccesary when she just wants to quickly see certain things and not be filled with nonsense.
 
-## Reflections 👨🏻‍💻
+## Reflection 👨🏻‍💻
 
 I had a lot of fun doing this assignment. it became very clear that a huge amount of websites arent inclusive at all. We tend to put the focus on creating something for regular people. But we are neglecting the many amount of people who still really enjoy using the web but some websites just dont allow them. Being able to create something for someone personally and really focussing on her needs was a very nice thing to do. The whole experience of prototyping and testing by interviewing her was a lot of fun to do. I do this at Creative Business a lot and this was a very nice experience to add to the assignments I've done. Larissa is a very nice and kind and fun person and at first I was a bit sketical about having the person assigned to me being blind since I really love just creating something visual But eventhough that wasn't the main focus, It was a very fun and I learned a lot about screenreaders and tabindexes and how to make your website more usuable for the blind users. 
