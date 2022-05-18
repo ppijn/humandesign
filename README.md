@@ -30,7 +30,7 @@ The first prototype was very simple, we had a short amount of time and the goal 
 
 ### Testing ☁
 
-When Larissa came to us for the interviews I was already surprised by how well she functioned with how she moved around. It was almost as if she were not blind. But for the first interview asked a lot of questions and showed my prototype. She reacted well to it and I knew I could go further with it.
+When Larissa came to us for the interviews I was already surprised by how well she functioned with how she moved around. It was almost as if she were not blind. But for the first interview asked a lot of questions and showed my prototype. She reacted well to it and I knew I could go further with it. I didnt just ask her questions regarding her sport life and how she wanted the schedule to look like. But I asked her a lot of personal questions too. Things like: "What is your favorite color"(Eventhough she cant see them now, she used to be able to) "How do you imagine things in your head, since you used to be able to see more?" etc. She reacted very well to those questions and she looked happy that I asked her those questions. 
 
 ### Results ✅
 
@@ -78,8 +78,10 @@ Testing went very good, Larissa liked it and of course she wanted the tab functi
 - Geen nonsense, vind het onnodig en niet fijn
 - Claire (vrouwelijke dames stem)
 - snel info nodig
+- gebruikt schema voor een dag of de dag erna
 
 ### Take Away
+For the next prototype I will include a better tab function and seeing from her experience with other students i could see she didn't want any Nonsense in there so we sadly wont be adding that. Although I had the planse to make it so that whenever she had "Baan Training" it would say it in a very depressed voice because she doesn't like these types of training. But from testing we found out she rather doesnt have any nonsense. 
 
 ## Phase 3️⃣
 
@@ -89,7 +91,7 @@ Phase 3 was the last time we got to interview her and again it went very well. I
 
 ### Testing ☁
 
-She liked it and only wanted some things to be adjusted like more space in between the boxes so she could tell that she was moving from block to block. As well as some text changes like (terug => vorige maand, volgende => volgende maand) etc.
+She liked it and only wanted some things to be adjusted like more space in between the boxes so she could tell that she was moving from block to block. As well as some text changes like (terug => vorige maand, volgende => volgende maand) etc. I aksed her how her week has been and she told me it was her birthay the 7th of May, so I decided to quicly include it in the schedule eventough she realy didnt like to think about becoming 30. She could laugh about it when I showed it to her! 
 
 ### Results ✅
 
@@ -99,6 +101,7 @@ She liked it and only wanted some things to be adjusted like more space in betwe
 - knop voor ga naar vandaag misschien ergens anders? voor nu goed
 
 ### Take Away
+For my final prototype, I will add more space in between the blocks so she can visually see a change better then having it close to each other. I want to add mreo meaning to the schedule by making verything work better and have it more personlised to her needs by implementing more visual changes. 
 
 ## Adjustments made from interview
 
@@ -134,4 +137,6 @@ We did this all so that Larissa has the best experience with using this website 
 
 I didnt use any nonsense because Larissa has mentioned herself during one of the interviews that she didnt want nonsense in there. It would be to unneccesary when she just wants to quickly see certain things and not be filled with nonsense.
 
-## Reflection
+## Reflections 👨🏻‍💻
+
+I had a lot of fun doing this assignment. it became very clear that a huge amount of websites arent inclusive at all. We tend to put the focus on creating something for regular people. But we are neglecting the many amount of people who still really enjoy using the web but some websites just dont allow them. Being able to create something for someone personally and really focussing on her needs was a very nice thing to do. The whole experience of prototyping and testing by interviewing her was a lot of fun to do. I do this at Creative Business a lot and this was a very nice experience to add to the assignments I've done. Larissa is a very nice and kind and fun person and at first I was a bit sketical about having the person assigned to me being blind since I really love just creating something visual But eventhough that wasn't the main focus, It was a very fun and I learned a lot about screenreaders and tabindexes and how to make your website more usuable for the blind users. 
