@@ -12,11 +12,11 @@
 
 ## Introduction ℹ
 
-For this course we were given the task to create something for one specific user. This had to be based on prototyping and testing using these interviews. We were given a random case ( a person with a specific kind of disability) and we had to create this website for that person.
+For this course we were given the task to create something for one specific user. This had to be based on three phases consisting of a prototype and testing that protoype with the user. We were given a random case (Someone with a specific kind of disability) and we had to create this website for that someone.
 
 ## Problem ⁉
 
-I was given a client called Larissa Klaassen. Larissa is blind/ very badly sighted and can only see about 95% meaning she can tell the difference between light and dark. Larissa is a professional Track cyclist and has won gold at the Paralympics in Tokyo 2020. We had to create a sport schedule for her based on her needs. I am going to focus on creating a easily accessible and usable schedule.
+I was given a client called Larissa Klaassen. Larissa is blind/ very badly sighted and during investigation on her I found out she can only see about 95% meaning she can tell the difference between light and dark. Larissa is a professional Track cyclist and has won gold at the Paralympics in Tokyo 2020. We had to create a sport schedule for her based on her needs. I am going to focus on creating a easily accessible and usable schedule. SInce Laissa is blind, she uses a screenreader and tab to naviagte websites. She showed us how she used the web and we were given very big insights. If something went wrong, she would have to use the magnifying function to see what everything says and this function is a pain in the ass to use. It was our job to make it way easier for her to use the web and make it so she doesn't have to use this function.
 
 ## Prototyping , Testing and Results
 
