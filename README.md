@@ -16,7 +16,7 @@ For this course we were given the task to create something for one specific user
 
 ## Problem ⁉
 
-I was given a client called Larissa Klaassen. Larissa is blind/ very badly sighted and during investigation on her I found out she can only see about 95% meaning she can tell the difference between light and dark. Larissa is a professional Track cyclist and has won gold at the Paralympics in Tokyo 2020. We had to create a sport schedule for her based on her needs. I am going to focus on creating a easily accessible and usable schedule. SInce Laissa is blind, she uses a screenreader and tab to naviagte websites. She showed us how she used the web and we were given very big insights. If something went wrong, she would have to use the magnifying function to see what everything says and this function is a pain in the ass to use. It was our job to make it way easier for her to use the web and make it so she doesn't have to use this function.
+I was given a client called Larissa Klaassen. Larissa is blind/ very badly sighted and during investigation on her I found out she can only see about 95% meaning she can tell the difference between light and dark. Larissa is a professional Track cyclist and has won gold at the Paralympics in Tokyo 2020. We had to create a sport schedule for her based on her needs. I am going to focus on creating a easily accessible and usable schedule.
 
 ## Prototyping , Testing and Results
 
@@ -60,6 +60,7 @@ Hoe ziet een ideale schema eruit?
 - schema per wedstrijden (NK, WK, etc.)
 
 ### Take Away
+For the next prototype I will add more colors and focus on a specific type of visual style. We also found out she doesnt like using the arrow keys but rather uses tab. 
 
 ## Phase 2️⃣
 
@@ -109,11 +110,16 @@ https://ppijn.github.io/humandesign/index.html
 
 ### Study Situation 💻
 
-To understand how Larissa works we need to study her and her situation, since she has a very special way of going about doing things. It is very important to understand her situation when applying it to her own personal needs. During our interviews we asked her a lot of questions regarding her ways of using the web, but also just the way she does things in general. Having a disability can prove to be a struggle and we need to learn from her in order to implement and make it accesible for more people.
+To understand how Larissa works we need to study her and her situation, since she has a very special way of going about doing things. It is very important to understand her situation when applying it to her own personal needs. Since Laissa is blind, she uses a screenreader and tab to naviagte websites. She showed us how she used the web and we were given very big insights. If something went wrong, she would have to use the magnifying function to see what everything says and this function is a pain in the ass to use. It was our job to make it way easier for her to use the web and make it so she doesn't have to use this function. 
+
+During our interviews we asked her a lot of questions regarding her ways of using the web, but also just the way she does things in general. Having a disability can prove to be a struggle and we need to learn from her in order to implement and make it accesible for more people. I asked her a lot of questions that didnt have to do anything with the schedule just to know her more in other things than just this assignment. I asked her quiestions like: "If you think of words, do you see them in braille or normal words?" just because I was curious in these things. But having her awnser everything so openly made it very easy to understand her and implement things for her. 
 
 ### Prioritise Identity 🆔
 
-From the interviews it is very clear that she has a very strong personality, she can be quite stubborn and stick to her ways. She is a very chaotic person mentioning to us the way she lives and doesnt like being controlled by a schedule and a coach. These things were kept in mind when designing this schedule for her, she doesnt like having a shared schedule and this proves in her proffesional live as well. She never follows her training schedules and wants to do what she wants.I therefore made it so that she can very easily add activities to her schedule and delete them as well. Keeping it personal for her.
+From the interviews it is very clear that she has a very strong personality, she can be quite stubborn and stick to her ways. She is a very chaotic person mentioning to us the way she lives and doesnt like being controlled by a schedule and a coach. Although we only saw each other 3 times, it was very clear what kind of person she was. She was very fun to be around with and to me she looked like someone with a lot of freedom in her descisions. 
+
+These things were kept in mind when designing this schedule for her, she doesnt like having a shared schedule and this proves in her proffesional live as well. She never follows her training schedules and wants to do what she wants. I therefore made it so that she can very easily add activities to her schedule and delete them as well. Keeping it personal for her.
+
 
 ### Ignore Conventions 🚫
 
@@ -121,6 +127,8 @@ From the interviews it is very clear that she has a very strong personality, she
 - the visual styling has been adjusted to her directly and doesnt look pleasing for people who can see. Using black as a background and white on the blocks we create a lot of contrast so that even she can see even a little bit.
 - we didnt use a nav and these types of html tags so that the screenreader reads things out in her prefered way.
 - Placing a tabindex on almost everything in a certain order so that I have control over how the tab moves.
+
+We did this all so that Larissa has the best experience with using this website and have something fully adjusted to her needs. In the end Larissa liked using it a lot.
 
 ### Add Nonsense 🎨
 
