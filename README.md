@@ -107,6 +107,7 @@ For my final prototype, I will add more space in between the blocks so she can v
 ## Adjustments made from interview
 
 After all the interviews it was time to finalise the product, i didn’t have to change much so i did a few adjustments to the styling and added a few more functions like a ‘back to today’ button.
+![sport schedule larissa klaassen](https://github.com/ppijn/humandesign/blob/main/img/schedule.png)
 Link to final product:
 https://ppijn.github.io/humandesign/index.html
 
