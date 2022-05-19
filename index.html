@@ -44,9 +44,22 @@
       <h2>Activiteit</h2>
 
       <p id="eventText"></p>
+      <h2>Heb je dit daadwerkelijk gedaan?</h2>
+      <form class="gedaan">
+        <input type="radio" name="gedaan" class="ja-gedaan" required /> Ja
+        <input type="radio" name="gedaan" class="nee-gedaan" required /> Nee
+        <!-- <input
+          class="btn btn-primary submit-btn"
+          id="deleteButton"
+          type="submit"
+          value="Verwijder"
+        /> -->
 
-      <button id="deleteButton" tabindex="0">Verwijder</button>
-      <button id="closeButton" tabindex="0">Sluiten</button>
+        <button id="deleteButton" class="submit-btn" tabindex="0">
+          Verwijder
+        </button>
+        <button id="closeButton" tabindex="0">Sluiten</button>
+      </form>
     </div>
 
     <div id="modalBackDrop"></div>
